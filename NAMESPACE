@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+
+import("foreach","doParallel")
+
+importFrom("stats", "aggregate", "binomial", "glm", "predict")
+importFrom("utils", "read.table")
+
